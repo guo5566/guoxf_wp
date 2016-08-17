@@ -20,11 +20,6 @@
 
 // ** MySQL 设置 - 具体信息来自您正在使用的主机 ** //
 /** WordPress数据库的名称 */
-define('bls_vr_data', 'a:15:{s:7:"version";s:3:"1.0";s:4:"wxid";s:0:"";s:5:"appid";s:0:"";s:9:"appsecret";s:0:"";s:6:"appurl";s:26:"http://127.0.0.1/guoxf_wp/";s:8:"apptoken";s:15:"2pazcJmNebgb2hc";s:14:"encodingaeskey";s:43:"5idG7Uv294ROhchMnYv01ivM7Q1EfyxUL4hCNQf4b2F";s:7:"msgtype";s:1:"0";s:11:"wxpay_mchid";s:0:"";s:9:"wxpay_key";s:0:"";s:6:"banner";s:0:"";s:4:"shop";s:0:"";s:7:"address";s:0:"";s:5:"phone";s:0:"";s:12:"wxpay_notify";s:0:"";}'); //from bls-weixin
-define('mall_url', 'http://127.0.0.1/guoxf_wp/index.php/mall/'); //from bls-weixin
-define('genre_url', 'http://127.0.0.1/guoxf_wp/index.php/genre/'); //from bls-weixin
-define('checkout_url', 'http://127.0.0.1/guoxf_wp/index.php/checkout/'); //from bls-weixin
-define('user_url', 'http://127.0.0.1/guoxf_wp/index.php/user/'); //from bls-weixin
 define('DB_NAME', 'guoxf_wp');
 
 /** MySQL数据库用户名 */
@@ -34,7 +29,7 @@ define('DB_USER', 'root');
 define('DB_PASSWORD', 'root');
 
 /** MySQL主机 */
-define('DB_HOST', '127.0.0.1');
+define('DB_HOST', 'rm-bp151332tf5v96501.mysql.rds.aliyuncs.com');
 
 /** 创建数据表时默认的文字编码 */
 define('DB_CHARSET', 'utf8');
